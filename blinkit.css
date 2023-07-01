@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family:sans-serif;
+}
+.my-nav {
+  border-bottom: 1px solid #eeeeee;
+  position: sticky;
+  background-color: white;
+  top: 0px;
+}
+.location > h6 {
+  margin: 0px;
+  font-weight: 900;
+}
+
+.logo {
+  border-right: 1px solid #eeeeee;
+}
+.location > p {
+  margin: 0px;
+}
+
+.search-bar {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  border: 1px solid #eeeeee;
+  width: 40vw;
+  padding: 10px;
+}
+
+.search-bar > input {
+  background-color: #f8f8f8;
+  border: none;
+  width: 90%;
+}
+.hero-section-1 {
+  display: flex;
+  justify-content: center;
+  margin-inline: auto;
+}
+
+.my-container {
+  display: flex;
+  justify-content: center;
+  margin-inline: auto;
+  width: 85vw;
+  overflow-x: scroll;
+}
+
+.list {
+  width: 100%;
+  margin-inline: auto;
+  white-space: nowrap;
+}
+
+.list > div {
+  display: inline-block;
+  margin: 10px;
+}
+
+
+.my-categories {
+  width: 85vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-inline: auto;
+}
+
+.my-categories2 {
+  width: 85vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-inline: auto;
+}
+
+.footer-text{
+  margin-top:50px;
+  text-align: center;
+}
